@@ -1,0 +1,25 @@
+/* Register.css */
+
+/* Style the container background */
+.container {
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 20px; /* Add spacing inside the container */
+    border-radius: 10px; /* Rounded corners for the container */
+  }
+  
+  /* Style the form elements */
+  .form-label {
+    font-size: 18px; /* Increase font size for labels */
+  }
+  
+  .form-control {
+    font-size: 16px; /* Increase font size for input fields */
+    margin-bottom: 10px; /* Add spacing between input fields */
+  }
+  
+  /* Style the buttons */
+  .btn {
+    font-size: 18px; /* Increase font size for buttons */
+    margin-top: 10px; /* Add spacing between buttons and other elements */
+  }
+  

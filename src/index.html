@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #c9fc6b;
+            color: rgb(18, 9, 9);
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #6fe9f0;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login<a>
+        <h3>Choose your role:</h3>
+
+        <a href="http://127.0.0.1:5504/index.html"><button onclick="redirectToRegistration('mentor')">Login as a mentor</button></a>
+    
+        <a href="http://127.0.0.1:5504/index.html"></a><button onclick="redirectToRegistration('mentee')">Login as a Mentee</button></a>
+
+        <p>Forgot your password? <a href="">Click</a></p>
+    </div>
+
+    <script>
+        function redirectToRegistration(role) {
+            window.location.href = 'register1' + role + '.html'; 
+        }
+    </script>
+</body>
+</html

@@ -1,0 +1,19 @@
+/* MentorSearch.css */
+
+.container {
+  text-align: center;
+}
+
+.search-input {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
